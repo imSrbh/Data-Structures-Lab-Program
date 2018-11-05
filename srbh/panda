@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main ()
+{
+int r,i,p,j,n=1;
+scanf("%d",&r)
+for(i=1;i<=r;i++)
+{
+for(p=(r-i);p>=0;p--)
+printf(" ");
+for(j=i;j<=i;j++)
+printf("%4d",(j*j));
+printf("\n");
+}
+}
